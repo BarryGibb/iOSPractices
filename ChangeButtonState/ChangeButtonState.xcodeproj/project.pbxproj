@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D2DFBC61CAD1218001C7004 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2DFBC51CAD1218001C7004 /* AppDelegate.swift */; };
+		2D2DFBC81CAD1218001C7004 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2DFBC71CAD1218001C7004 /* ViewController.swift */; };
+		2D2DFBCB1CAD1218001C7004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2DFBC91CAD1218001C7004 /* Main.storyboard */; };
+		2D2DFBCE1CAD1218001C7004 /* ChangeButtonState.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D2DFBCC1CAD1218001C7004 /* ChangeButtonState.xcdatamodeld */; };
+		2D2DFBD01CAD1218001C7004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D2DFBCF1CAD1218001C7004 /* Assets.xcassets */; };
+		2D2DFBD31CAD1218001C7004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2DFBD11CAD1218001C7004 /* LaunchScreen.storyboard */; };
+		2D2DFBDE1CAD1218001C7004 /* ChangeButtonStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2DFBDD1CAD1218001C7004 /* ChangeButtonStateTests.swift */; };
+		2D2DFBE91CAD1218001C7004 /* ChangeButtonStateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2DFBE81CAD1218001C7004 /* ChangeButtonStateUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D2DFBDA1CAD1218001C7004 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D2DFBBA1CAD1218001C7004 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D2DFBC11CAD1218001C7004;
+			remoteInfo = ChangeButtonState;
+		};
+		2D2DFBE51CAD1218001C7004 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D2DFBBA1CAD1218001C7004 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D2DFBC11CAD1218001C7004;
+			remoteInfo = ChangeButtonState;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D2DFBC21CAD1218001C7004 /* ChangeButtonState.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeButtonState.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2DFBC51CAD1218001C7004 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D2DFBC71CAD1218001C7004 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D2DFBCA1CAD1218001C7004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D2DFBCD1CAD1218001C7004 /* ChangeButtonState.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChangeButtonState.xcdatamodel; sourceTree = "<group>"; };
+		2D2DFBCF1CAD1218001C7004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D2DFBD21CAD1218001C7004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D2DFBD41CAD1218001C7004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D2DFBD91CAD1218001C7004 /* ChangeButtonStateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeButtonStateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2DFBDD1CAD1218001C7004 /* ChangeButtonStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeButtonStateTests.swift; sourceTree = "<group>"; };
+		2D2DFBDF1CAD1218001C7004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D2DFBE41CAD1218001C7004 /* ChangeButtonStateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeButtonStateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2DFBE81CAD1218001C7004 /* ChangeButtonStateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeButtonStateUITests.swift; sourceTree = "<group>"; };
+		2D2DFBEA1CAD1218001C7004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D2DFBBF1CAD1218001C7004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2DFBD61CAD1218001C7004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2DFBE11CAD1218001C7004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D2DFBB91CAD1218001C7004 = {
+			isa = PBXGroup;
+			children = (
+				2D2DFBC41CAD1218001C7004 /* ChangeButtonState */,
+				2D2DFBDC1CAD1218001C7004 /* ChangeButtonStateTests */,
+				2D2DFBE71CAD1218001C7004 /* ChangeButtonStateUITests */,
+				2D2DFBC31CAD1218001C7004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D2DFBC31CAD1218001C7004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D2DFBC21CAD1218001C7004 /* ChangeButtonState.app */,
+				2D2DFBD91CAD1218001C7004 /* ChangeButtonStateTests.xctest */,
+				2D2DFBE41CAD1218001C7004 /* ChangeButtonStateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D2DFBC41CAD1218001C7004 /* ChangeButtonState */ = {
+			isa = PBXGroup;
+			children = (
+				2D2DFBC51CAD1218001C7004 /* AppDelegate.swift */,
+				2D2DFBC71CAD1218001C7004 /* ViewController.swift */,
+				2D2DFBC91CAD1218001C7004 /* Main.storyboard */,
+				2D2DFBCF1CAD1218001C7004 /* Assets.xcassets */,
+				2D2DFBD11CAD1218001C7004 /* LaunchScreen.storyboard */,
+				2D2DFBD41CAD1218001C7004 /* Info.plist */,
+				2D2DFBCC1CAD1218001C7004 /* ChangeButtonState.xcdatamodeld */,
+			);
+			path = ChangeButtonState;
+			sourceTree = "<group>";
+		};
+		2D2DFBDC1CAD1218001C7004 /* ChangeButtonStateTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D2DFBDD1CAD1218001C7004 /* ChangeButtonStateTests.swift */,
+				2D2DFBDF1CAD1218001C7004 /* Info.plist */,
+			);
+			path = ChangeButtonStateTests;
+			sourceTree = "<group>";
+		};
+		2D2DFBE71CAD1218001C7004 /* ChangeButtonStateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D2DFBE81CAD1218001C7004 /* ChangeButtonStateUITests.swift */,
+				2D2DFBEA1CAD1218001C7004 /* Info.plist */,
+			);
+			path = ChangeButtonStateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D2DFBC11CAD1218001C7004 /* ChangeButtonState */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D2DFBED1CAD1218001C7004 /* Build configuration list for PBXNativeTarget "ChangeButtonState" */;
+			buildPhases = (
+				2D2DFBBE1CAD1218001C7004 /* Sources */,
+				2D2DFBBF1CAD1218001C7004 /* Frameworks */,
+				2D2DFBC01CAD1218001C7004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangeButtonState;
+			productName = ChangeButtonState;
+			productReference = 2D2DFBC21CAD1218001C7004 /* ChangeButtonState.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D2DFBD81CAD1218001C7004 /* ChangeButtonStateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D2DFBF01CAD1218001C7004 /* Build configuration list for PBXNativeTarget "ChangeButtonStateTests" */;
+			buildPhases = (
+				2D2DFBD51CAD1218001C7004 /* Sources */,
+				2D2DFBD61CAD1218001C7004 /* Frameworks */,
+				2D2DFBD71CAD1218001C7004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D2DFBDB1CAD1218001C7004 /* PBXTargetDependency */,
+			);
+			name = ChangeButtonStateTests;
+			productName = ChangeButtonStateTests;
+			productReference = 2D2DFBD91CAD1218001C7004 /* ChangeButtonStateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D2DFBE31CAD1218001C7004 /* ChangeButtonStateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D2DFBF31CAD1218001C7004 /* Build configuration list for PBXNativeTarget "ChangeButtonStateUITests" */;
+			buildPhases = (
+				2D2DFBE01CAD1218001C7004 /* Sources */,
+				2D2DFBE11CAD1218001C7004 /* Frameworks */,
+				2D2DFBE21CAD1218001C7004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D2DFBE61CAD1218001C7004 /* PBXTargetDependency */,
+			);
+			name = ChangeButtonStateUITests;
+			productName = ChangeButtonStateUITests;
+			productReference = 2D2DFBE41CAD1218001C7004 /* ChangeButtonStateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D2DFBBA1CAD1218001C7004 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "凉鱼";
+				TargetAttributes = {
+					2D2DFBC11CAD1218001C7004 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					2D2DFBD81CAD1218001C7004 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2D2DFBC11CAD1218001C7004;
+					};
+					2D2DFBE31CAD1218001C7004 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2D2DFBC11CAD1218001C7004;
+					};
+				};
+			};
+			buildConfigurationList = 2D2DFBBD1CAD1218001C7004 /* Build configuration list for PBXProject "ChangeButtonState" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D2DFBB91CAD1218001C7004;
+			productRefGroup = 2D2DFBC31CAD1218001C7004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D2DFBC11CAD1218001C7004 /* ChangeButtonState */,
+				2D2DFBD81CAD1218001C7004 /* ChangeButtonStateTests */,
+				2D2DFBE31CAD1218001C7004 /* ChangeButtonStateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D2DFBC01CAD1218001C7004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2DFBD31CAD1218001C7004 /* LaunchScreen.storyboard in Resources */,
+				2D2DFBD01CAD1218001C7004 /* Assets.xcassets in Resources */,
+				2D2DFBCB1CAD1218001C7004 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2DFBD71CAD1218001C7004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2DFBE21CAD1218001C7004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D2DFBBE1CAD1218001C7004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2DFBCE1CAD1218001C7004 /* ChangeButtonState.xcdatamodeld in Sources */,
+				2D2DFBC81CAD1218001C7004 /* ViewController.swift in Sources */,
+				2D2DFBC61CAD1218001C7004 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2DFBD51CAD1218001C7004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2DFBDE1CAD1218001C7004 /* ChangeButtonStateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2DFBE01CAD1218001C7004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2DFBE91CAD1218001C7004 /* ChangeButtonStateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D2DFBDB1CAD1218001C7004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D2DFBC11CAD1218001C7004 /* ChangeButtonState */;
+			targetProxy = 2D2DFBDA1CAD1218001C7004 /* PBXContainerItemProxy */;
+		};
+		2D2DFBE61CAD1218001C7004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D2DFBC11CAD1218001C7004 /* ChangeButtonState */;
+			targetProxy = 2D2DFBE51CAD1218001C7004 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D2DFBC91CAD1218001C7004 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D2DFBCA1CAD1218001C7004 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D2DFBD11CAD1218001C7004 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D2DFBD21CAD1218001C7004 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D2DFBEB1CAD1218001C7004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D2DFBEC1CAD1218001C7004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D2DFBEE1CAD1218001C7004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChangeButtonState/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liangyu.ChangeButtonState;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2D2DFBEF1CAD1218001C7004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChangeButtonState/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liangyu.ChangeButtonState;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2D2DFBF11CAD1218001C7004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChangeButtonStateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liangyu.ChangeButtonStateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChangeButtonState.app/ChangeButtonState";
+			};
+			name = Debug;
+		};
+		2D2DFBF21CAD1218001C7004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChangeButtonStateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liangyu.ChangeButtonStateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChangeButtonState.app/ChangeButtonState";
+			};
+			name = Release;
+		};
+		2D2DFBF41CAD1218001C7004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChangeButtonStateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liangyu.ChangeButtonStateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChangeButtonState;
+			};
+			name = Debug;
+		};
+		2D2DFBF51CAD1218001C7004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChangeButtonStateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liangyu.ChangeButtonStateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChangeButtonState;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D2DFBBD1CAD1218001C7004 /* Build configuration list for PBXProject "ChangeButtonState" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2DFBEB1CAD1218001C7004 /* Debug */,
+				2D2DFBEC1CAD1218001C7004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D2DFBED1CAD1218001C7004 /* Build configuration list for PBXNativeTarget "ChangeButtonState" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2DFBEE1CAD1218001C7004 /* Debug */,
+				2D2DFBEF1CAD1218001C7004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D2DFBF01CAD1218001C7004 /* Build configuration list for PBXNativeTarget "ChangeButtonStateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2DFBF11CAD1218001C7004 /* Debug */,
+				2D2DFBF21CAD1218001C7004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D2DFBF31CAD1218001C7004 /* Build configuration list for PBXNativeTarget "ChangeButtonStateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2DFBF41CAD1218001C7004 /* Debug */,
+				2D2DFBF51CAD1218001C7004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2D2DFBCC1CAD1218001C7004 /* ChangeButtonState.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2D2DFBCD1CAD1218001C7004 /* ChangeButtonState.xcdatamodel */,
+			);
+			currentVersion = 2D2DFBCD1CAD1218001C7004 /* ChangeButtonState.xcdatamodel */;
+			path = ChangeButtonState.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2D2DFBBA1CAD1218001C7004 /* Project object */;
+}

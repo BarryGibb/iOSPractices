@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LearnUIKit" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Segments" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZkV-Cn-7iY">
+                                <rect key="frame" x="243" y="73" width="113" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UVu-Y5-TQ2">
+                                <rect key="frame" x="250" y="113" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Jtr-cl-BFm"/>
+                                    <constraint firstAttribute="height" constant="30" id="ZBF-Bh-HCG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D3f-VD-tqC">
+                                <rect key="frame" x="272" y="151" width="55" height="30"/>
+                                <state key="normal" title="Confirm"/>
+                                <connections>
+                                    <action selector="addSegmentsItems:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U4N-q1-KPh"/>
+                                    <action selector="confirmButton:" destination="BYZ-38-t0r" eventType="touchDragInside" id="jNo-ej-Mt4"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="hAg-OK-kJL">
+                                <rect key="frame" x="155" y="20" width="291" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="6XL-tH-el1"/>
+                                    <constraint firstAttribute="width" constant="291" id="xFF-lh-c17"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="White"/>
+                                    <segment title="Black"/>
+                                    <segment title="Grey"/>
+                                    <segment title="Yellow"/>
+                                </segments>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="6XL-tH-el1"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="changeBackgroundColor:" destination="BYZ-38-t0r" eventType="valueChanged" id="KaX-8j-6wN"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hAg-OK-kJL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4FH-ld-u9t"/>
+                            <constraint firstItem="ZkV-Cn-7iY" firstAttribute="top" secondItem="hAg-OK-kJL" secondAttribute="bottom" constant="25" id="DaB-M8-40b"/>
+                            <constraint firstItem="D3f-VD-tqC" firstAttribute="top" secondItem="UVu-Y5-TQ2" secondAttribute="bottom" constant="8" id="EXy-Pj-CfH"/>
+                            <constraint firstItem="hAg-OK-kJL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="HYY-WD-qol"/>
+                            <constraint firstItem="UVu-Y5-TQ2" firstAttribute="centerX" secondItem="ZkV-Cn-7iY" secondAttribute="centerX" id="UmR-eT-IDI"/>
+                            <constraint firstItem="D3f-VD-tqC" firstAttribute="centerX" secondItem="UVu-Y5-TQ2" secondAttribute="centerX" id="X1u-Jf-rHd"/>
+                            <constraint firstItem="ZkV-Cn-7iY" firstAttribute="centerX" secondItem="hAg-OK-kJL" secondAttribute="centerX" constant="-1" id="wSv-yh-Go3"/>
+                            <constraint firstItem="UVu-Y5-TQ2" firstAttribute="top" secondItem="ZkV-Cn-7iY" secondAttribute="bottom" constant="19" id="xhd-mr-8Ba"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="confirmButton" destination="D3f-VD-tqC" id="RZ1-fv-dst"/>
+                        <outlet property="inputTextFiled" destination="UVu-Y5-TQ2" id="8rH-v5-qqk"/>
+                        <outlet property="segmentsBar" destination="hAg-OK-kJL" id="N4G-ka-7cM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="124" y="507"/>
+        </scene>
+    </scenes>
+</document>
